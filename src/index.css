@@ -1,0 +1,84 @@
+*{
+box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(./graf.png) ;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color:#fff;
+}
+
+.text-center{
+  text-align: center;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: rgb(32, 28, 28);
+
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+
+.ListItems {
+  background: #fff;
+  color: #00065c
+
+}
+
+.ListItems p {
+  margin : 0 ;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #cccccc;
+}
+
+.ListItems span.title{
+  background: #22eebb; ;
+  color: rgb(29, 1, 1);
+}
+
+.ListItems span.name,form input[type=text]{
+  width:60%;
+}
+.ListItems span.age,form input[type=number]{
+  width: 30%;
+}
+
+.ListItems span.action , form input[type = submit]{
+  width: 10%;
+}
+
+.ListItems span.icon {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+form input{
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc
+}
+
+form input[type=submit]{
+  background: #22eebb;
+  border:0.3px solid #22eebb;
+  color: rgb(12, 1, 1);
+  cursor: pointer;
+  font-style: initial;
+}
