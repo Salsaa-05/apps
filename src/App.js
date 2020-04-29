@@ -29,7 +29,7 @@ render(){
 
  return (
     <div className="App containar">
-     <h1 className = "text-center">List of Rrsidents</h1> 
+     <h1 className = "text-center">Guests List</h1> 
       <TodoItems items = {this.state.items} deleteItem = {this.deleteItem} />
       <Additem  addItem={this.addItem}/>
     </div>
