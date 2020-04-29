@@ -5,9 +5,9 @@ import Additem from './Component/Additem/AddItem'
 class App extends Component{
   state = {
 items : [
-{id:1,name:"Saad",age:24},
+{id:1,name:"Antoni",age:34},
 {id:2,name:"Gregorio",age:28},
-{id:3,name:"Delpero",age:38}
+{id:3,name:"Roberto",age:33}
 ]
   }
 
