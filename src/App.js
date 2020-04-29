@@ -5,15 +5,9 @@ import Additem from './Component/Additem/AddItem'
 class App extends Component{
   state = {
 items : [
-<<<<<<< HEAD
-{id:1,name:"Antoni",age:34},
-{id:2,name:"Gregorio",age:28},
-{id:3,name:"Roberto",age:33}
-=======
 {id:1,name:"Saad",age:24},
 {id:2,name:"Gregorio",age:28},
 {id:3,name:"Delpero",age:38}
->>>>>>> ba8a304bd096815bbbb0d2f9d96b9c4af13fc85c
 ]
   }
 
@@ -46,7 +40,4 @@ render(){
 }
 
 export default App;
-<<<<<<< HEAD
-//Saad 
-=======
->>>>>>> ba8a304bd096815bbbb0d2f9d96b9c4af13fc85c
+//Saad //R
